@@ -4,7 +4,9 @@
 Face detection and recognition is an extensively researched topic in AI. The use of AI in detection and mapping of faces or any objects can reduce the time spent in video auditing. A face recognition system maps facial traits from a picture or video using biometrics. To identify a match, it compares the data with a database of recognized faces. In any situation, facial recognition technology can intelligently assist in confirming a person's identification. IR camera or night vision in security cameras uses infrared light to capture near-infrared images in the dark and also through fog, dust and smoke, such that camera works in all conditions. Cameras operating in visual spectrum will work well only when the image capturing works well, but IR camera images can capture quality images at all times. The paper presents our work in creating a facial recognition system in near-infrared images from a surveillance camera, in which database was created in live CCTV footage for different individuals and the same was tested with different face detection techniques, classify images using the facial embeddings from VGG-face model to determine the faces.
 
 ## IR Cameras
-<img src="images/Picture1.png" alt="drawing" width="400"/>
+<div align = "center">
+<img src="images/Picture1.png" alt="drawing" width="600"/>
+</div>
 In order to see at night, most CCTV cameras use infrared (IR) technology. CCTV cameras with night vision are surrounded by a number of small LEDs. These emit infrared light at night, which allows the camera to see even in total darkness.
 
 
@@ -32,13 +34,13 @@ From the statistics in the figures, we can infer that, accuracy of face detectio
 
 ## Face Recognition
 ### VGG-Face Recognition module
-![image](https://user-images.githubusercontent.com/71021069/188786433-dc6b0e92-415d-41b3-9bcd-ac9490204a3e.png)
+<img src="images/vggface.jpg" alt="drawing" width="400"/>
 * VGGFace refers to a series of models developed for face recognition. It was developed by the Visual Geometry Group (hence its VGG name) at the University of Oxford. 
 * The models were trained on a dataset comprised mainly of celebrities, public figures, actors, and politicians. Their names were extracted from the Internet Movie Data Base (IMDB) celebrity list based on their gender, popularity, pose, illumination, ethnicity, and profession (actors, athletes, politicians). 
 
 ### Using transfer learning to recognize custom faces.
 Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Transfer learning reduces the amount of time that you need to spend on training.
-![image](https://user-images.githubusercontent.com/71021069/188786797-a0d27f44-65e6-4767-a7f9-6f862cd390c8.png)
+<img src="images/transfer.jpg" alt="drawing" width="400"/>
 
 In general CNN, models for image classification can be divided into two parts:
 * Feature extraction: the aim of this part is to find the features in the image
