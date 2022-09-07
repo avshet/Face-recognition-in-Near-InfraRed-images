@@ -59,8 +59,36 @@ In general CNN, models for image classification can be divided into two parts:
 
 ## Results
 ![image](https://user-images.githubusercontent.com/71021069/188786867-ef6bdbda-797d-4df2-960f-5771476222c0.png)
+### ScreenShots
 <div align = "center">
 <img src="images/demo1.PNG" alt="drawing" width="400"/>
 <img src="images/demo2.PNG" alt="drawing" width="600"/>
  </div>
+### Sample Video
+<video width="400" height="280" autoplay>
+  <source src="output.mp4" type="video/mp4">
+</video>
+
+## References
+
+[1] C. Pasquini, " Near Infrared Spectroscopy: fundamentals, practical aspects and analytical applications.," Journal of the Brazilian Chemical Society. 14. 10.1590/S0103- 50532003000200006. , 2003. 
+
+[2] P. Kaler, "“Study of Grayscale Image in Image Processing”," IJRITCC, vol. 4, no. 11, pp. 309-11, 2016. 
+
+[3] Kumar, Ashu & Kaur, Amandeep & Kumar, Munish. (2019). Face Detection Techniques: A Review. Artificial Intelligence Review. 52. 10.1007/s10462-018-9650-2. 
+
+[4] X. Zhang, M. Peng and T. Chen, "Face recognition from near-infrared images with convolutional neural network," 2016 8th International Conference on Wireless Communications & Signal Processing (WCSP), 2016, pp. 1-5, doi: 10.1109/WCSP.2016.7752592. 
+
+[5] Lin, Yandan & Fotios, Steve. (2013). Investigating methods for measuring face recognition under lamps of different spectral power distribution. Lighting Research and Technology. 47. 10.1177/1477153513505306.
+
+[6] Guo, Kai & Wu, Shuai & Xu, Yong. (2017). Face recognition using both visible light image and near-infrared image and a deep network. CAAI Transactions on Intelligence Technology. 2. 10.1016/j.trit.2017.03.001.
+
+[7] Redmon, Joseph & Farhadi, Ali. (2018). YOLOv3: An Incremental Improvement.
+
+[8] Chen, W., Huang, H., Peng, S. et al. YOLO-face: a real-time face detector. Vis Comput 37, 805–813 (2021). https://doi.org/10.1007/s00371-020-01831-7 
+
+[9] Kaipeng Zhang, Zhanpeng Zhang, Zhifeng Li, Yu Qiao "Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks," IEEE Signal Processing Letters, vol. 23, pp. 1499-1503, 2016. 
+
+[10] L. Li, X. Mu, S. Li and H. Peng, "A Review of Face Recognition Technology," in IEEE Access, vol. 8, pp. 139110-139120,2020, doi: 10.1109/ACCESS.2020.3011028. 
+
 
