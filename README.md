@@ -1,7 +1,8 @@
 
 # Face Recognition in Near-Infrared Images.
-
+<p text-align = "justify">
 Face detection and recognition is an extensively researched topic in AI. The use of AI in detection and mapping of faces or any objects can reduce the time spent in video auditing. A face recognition system maps facial traits from a picture or video using biometrics. To identify a match, it compares the data with a database of recognized faces. In any situation, facial recognition technology can intelligently assist in confirming a person's identification. IR camera or night vision in security cameras uses infrared light to capture near-infrared images in the dark and also through fog, dust and smoke, such that camera works in all conditions. Cameras operating in visual spectrum will work well only when the image capturing works well, but IR camera images can capture quality images at all times. The paper presents our work in creating a facial recognition system in near-infrared images from a surveillance camera, in which database was created in live CCTV footage for different individuals and the same was tested with different face detection techniques, classify images using the facial embeddings from VGG-face model to determine the faces.
+</p>
 
 ## IR Cameras
 <div align = "center">
@@ -59,12 +60,15 @@ In general CNN, models for image classification can be divided into two parts:
 
 ## Results
 ![image](https://user-images.githubusercontent.com/71021069/188786867-ef6bdbda-797d-4df2-960f-5771476222c0.png)
+
 ### ScreenShots
 <div align = "center">
 <img src="images/demo1.PNG" alt="drawing" width="400"/>
 <img src="images/demo2.PNG" alt="drawing" width="600"/>
  </div>
+ 
 ### Sample Video
+
 <video width="400" height="280" autoplay>
   <source src="output.mp4" type="video/mp4">
 </video>
