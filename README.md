@@ -11,14 +11,19 @@ In order to see at night, most CCTV cameras use infrared (IR) technology. CCTV c
 
 
 ## Methodology
+<div align = "center">
 <img src="images/methodology.jpg" alt="drawing" width="400"/>
+</div>
+
 ### Steps Followed
  * This Project includes Image capturing, face detection, face recognition. The dataset for training was created from a live CCTV camera with IR enabled, where in a short 10-20s video was captured in low light for every individual in the dataset.
  * Detection of faces in images is done using 3 different techniques, and corresponding bounding box will be drawn around each detected face, and is cropped to box bounded and given for face recognition.
  * In the recognition part we will be using CNN classifier VGG-face, which outputs 2622 embeddings for each face, and a customized softmax regression classifier classifies the images to labels by comparing the known information of given facial embeddings to match the faces [16]. The training for classification model was done using dataset generated. Results and analysis part house the experimental results of our trained model on the trained dataset.
 
 ## Dataset Created
+<div align = "center">
 <img src="images/dataset.png" alt="drawing" width="400"/>
+</div>
 
 Custom dataset for the project was created on 15 different individuals, and the same was used to train the model. The dataset was obtained from the footage obtained from a live IP camera with IR capability (CP-plus 2MP Full HD IR Bullet Camera - 30Mtr). The camera was configured to operate in low light conditions, and short video of 10-15 sec was recorded for each individual. 
 Videos were divided into frames of image and for each corresponding frame face detection algorithm was executed. Faces boundary obtained were cropped in a separate image and stored in the respective folder.
@@ -34,13 +39,17 @@ From the statistics in the figures, we can infer that, accuracy of face detectio
 
 ## Face Recognition
 ### VGG-Face Recognition module
+<div align = "center">
 <img src="images/vggface.jpg" alt="drawing" width="400"/>
+ </div>
 * VGGFace refers to a series of models developed for face recognition. It was developed by the Visual Geometry Group (hence its VGG name) at the University of Oxford. 
 * The models were trained on a dataset comprised mainly of celebrities, public figures, actors, and politicians. Their names were extracted from the Internet Movie Data Base (IMDB) celebrity list based on their gender, popularity, pose, illumination, ethnicity, and profession (actors, athletes, politicians). 
 
 ### Using transfer learning to recognize custom faces.
 Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Transfer learning reduces the amount of time that you need to spend on training.
+<div align = "center">
 <img src="images/transfer.jpg" alt="drawing" width="400"/>
+ </div>
 
 In general CNN, models for image classification can be divided into two parts:
 * Feature extraction: the aim of this part is to find the features in the image
@@ -48,3 +57,8 @@ In general CNN, models for image classification can be divided into two parts:
 
 ## Results
 ![image](https://user-images.githubusercontent.com/71021069/188786867-ef6bdbda-797d-4df2-960f-5771476222c0.png)
+<div align = "center">
+<img src="images/demo1.png" alt="drawing" width="400"/>
+<img src="images/demo2.png" alt="drawing" width="600"/>
+ </div>
+
