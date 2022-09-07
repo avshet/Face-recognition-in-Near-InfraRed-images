@@ -5,14 +5,14 @@ Face detection and recognition is an extensively researched topic in AI. The use
 
 ## IR Cameras
 <div align = "center">
-<img src="images/Picture1.png" alt="drawing" width="600"/>
+<img src="images/Picture1.png" alt="drawing" width="400"/>
 </div>
 In order to see at night, most CCTV cameras use infrared (IR) technology. CCTV cameras with night vision are surrounded by a number of small LEDs. These emit infrared light at night, which allows the camera to see even in total darkness.
 
 
 ## Methodology
 <div align = "center">
-<img src="images/methodology.jpg" alt="drawing" width="400"/>
+<img src="images/methodology.jpg" alt="drawing" width="520"/>
 </div>
 
 ### Steps Followed
@@ -22,7 +22,7 @@ In order to see at night, most CCTV cameras use infrared (IR) technology. CCTV c
 
 ## Dataset Created
 <div align = "center">
-<img src="images/dataset.png" alt="drawing" width="400"/>
+<img src="images/dataset.png" alt="drawing" width="500"/>
 </div>
 
 Custom dataset for the project was created on 15 different individuals, and the same was used to train the model. The dataset was obtained from the footage obtained from a live IP camera with IR capability (CP-plus 2MP Full HD IR Bullet Camera - 30Mtr). The camera was configured to operate in low light conditions, and short video of 10-15 sec was recorded for each individual. 
@@ -34,7 +34,9 @@ Videos were divided into frames of image and for each corresponding frame face d
 * Yolo-face based on YOLOv3 was derived to improve the performance for face detection. The approach in yolo includes using anchor boxes more appropriate for face detection and a more precise regression loss function. The improved detector significantly increased accuracy while remaining fast detection speed. [8] experimented yolo-face on the WIDER FACE and the FDDB datasets and showed that the improved algorithm outperforms YOLO and its varieties.  
 
 * MTCNN or Multi-Task Cascaded Convolutional Neural Networks composed of three convolutional networks (P-Net, R-Net, and O-net) is very robust and can outperform many face-detection benchmarks but manages to work in real-time. Composed of 3 neural networks, each with multiple layers allows for higher precision [9]. The paper claims 16fps on a 2.60GHz CPU and higher in other higher specification in the mentioned un-optimized MATLAB code. 
+     
 ![image](https://user-images.githubusercontent.com/71021069/188786111-edd2b435-3a90-4059-8808-a2d113fc54da.png)
+
 From the statistics in the figures, we can infer that, accuracy of face detection techniques was comparable between yolo-face and MTCNN, but later one out-classed former in terms of capability to detect faces, where MTCNN was able to detect more frames with faces than yolo-face
 
 ## Face Recognition
@@ -48,7 +50,7 @@ From the statistics in the figures, we can infer that, accuracy of face detectio
 ### Using transfer learning to recognize custom faces.
 Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Transfer learning reduces the amount of time that you need to spend on training.
 <div align = "center">
-<img src="images/transfer.jpg" alt="drawing" width="400"/>
+<img src="images/transfer.png" alt="drawing" width="400"/>
  </div>
 
 In general CNN, models for image classification can be divided into two parts:
@@ -58,7 +60,7 @@ In general CNN, models for image classification can be divided into two parts:
 ## Results
 ![image](https://user-images.githubusercontent.com/71021069/188786867-ef6bdbda-797d-4df2-960f-5771476222c0.png)
 <div align = "center">
-<img src="images/demo1.png" alt="drawing" width="400"/>
-<img src="images/demo2.png" alt="drawing" width="600"/>
+<img src="images/demo1.PNG" alt="drawing" width="400"/>
+<img src="images/demo2.PNG" alt="drawing" width="600"/>
  </div>
 
