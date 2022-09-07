@@ -69,14 +69,7 @@ In general CNN, models for image classification can be divided into two parts:
  </div>
  
 ### Sample Video
-
-<video controls width="250">
-
-    <source src="images/output.mp4"
-            type="video/mp4">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/71021069/188796478-7216f92b-0b86-4989-ad2a-0b7838900b0c.gif)
 
 ## References
 
