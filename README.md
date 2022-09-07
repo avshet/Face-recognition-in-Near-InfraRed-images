@@ -4,18 +4,19 @@
 Face detection and recognition is an extensively researched topic in AI. The use of AI in detection and mapping of faces or any objects can reduce the time spent in video auditing. A face recognition system maps facial traits from a picture or video using biometrics. To identify a match, it compares the data with a database of recognized faces. In any situation, facial recognition technology can intelligently assist in confirming a person's identification. IR camera or night vision in security cameras uses infrared light to capture near-infrared images in the dark and also through fog, dust and smoke, such that camera works in all conditions. Cameras operating in visual spectrum will work well only when the image capturing works well, but IR camera images can capture quality images at all times. The paper presents our work in creating a facial recognition system in near-infrared images from a surveillance camera, in which database was created in live CCTV footage for different individuals and the same was tested with different face detection techniques, classify images using the facial embeddings from VGG-face model to determine the faces.
 
 ## IR Cameras
+<img src="images/Picture1.png" alt="drawing" width="400"/>
 In order to see at night, most CCTV cameras use infrared (IR) technology. CCTV cameras with night vision are surrounded by a number of small LEDs. These emit infrared light at night, which allows the camera to see even in total darkness.
-<img src="images/Picture1.png" alt="drawing" width="200"/>
+
 
 ## Methodology
-<img src="images/methodology.jpg" alt="drawing" width="200"/>
+<img src="images/methodology.jpg" alt="drawing" width="400"/>
 ### Steps Followed
  * This Project includes Image capturing, face detection, face recognition. The dataset for training was created from a live CCTV camera with IR enabled, where in a short 10-20s video was captured in low light for every individual in the dataset.
  * Detection of faces in images is done using 3 different techniques, and corresponding bounding box will be drawn around each detected face, and is cropped to box bounded and given for face recognition.
  * In the recognition part we will be using CNN classifier VGG-face, which outputs 2622 embeddings for each face, and a customized softmax regression classifier classifies the images to labels by comparing the known information of given facial embeddings to match the faces [16]. The training for classification model was done using dataset generated. Results and analysis part house the experimental results of our trained model on the trained dataset.
 
 ## Dataset Created
-![image](https://user-images.githubusercontent.com/71021069/188785896-896a6cc4-0348-4beb-9a38-afa3ae8e5dea.png)
+<img src="images/dataset.png" alt="drawing" width="400"/>
 
 Custom dataset for the project was created on 15 different individuals, and the same was used to train the model. The dataset was obtained from the footage obtained from a live IP camera with IR capability (CP-plus 2MP Full HD IR Bullet Camera - 30Mtr). The camera was configured to operate in low light conditions, and short video of 10-15 sec was recorded for each individual. 
 Videos were divided into frames of image and for each corresponding frame face detection algorithm was executed. Faces boundary obtained were cropped in a separate image and stored in the respective folder.
