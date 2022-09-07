@@ -38,7 +38,7 @@ Dr. Shobha G
 
 Professor
 
-
+<img src="images/Picture1.png" alt="drawing" width="200"/>
 
 
 
